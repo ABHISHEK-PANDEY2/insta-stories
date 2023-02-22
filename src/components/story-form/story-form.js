@@ -51,6 +51,8 @@ const StoryForm = () => {
         dy_text.current.style.left = `${data.x}px`
     }
 
+    
+
     //function to add text content when pressed "enter"
     function addText(){
         dynamic.current.style.display="block";
